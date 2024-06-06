@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #083b4c;
+}
+
+/* HEADER */
+header h1 {
+    margin: 20px 0 40px;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+/* MAIN */
+.container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+/* DEBUG */
+/* .prova {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+} */
