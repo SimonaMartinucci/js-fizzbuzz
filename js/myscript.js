@@ -29,10 +29,9 @@ for(let i = 1; i <= 100; i++) {
 
     console.log(messaggio);
 
+    // inserisco i div nel container
     container.append(box);
 
+    // inserisco il messaggio nei div
     box.append(messaggio);
-
-
-
 }
