@@ -24,9 +24,12 @@ for(let i = 1; i <= 100; i++) {
 const container = document.querySelector(".container");
 
 // creare div da inserire nel container
-const box = `<div class="box">${messaggio}</div>`;
+const boxDaInserire = `<div class="box">${messaggio}</div>`;
 
 // inserire box all'interno di container
-container.innerHTML += box;
+container.innerHTML += boxDaInserire;
+
+// Richiamare div
+let box = document.querySelector(".box")
 
 }
