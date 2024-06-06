@@ -26,10 +26,25 @@ header h1 {
     flex-wrap: wrap;
 }
 
-.box {
+.container > div {
     height: 100px;
     width: 100px;
-    background-color: #1389b2;
     align-content: center;
     text-align: center;
+}
+
+.box {
+    background-color: #1389b2;
+}
+
+.fizz {
+    background-color: #0cd6a1;
+}
+
+.buzz {
+ background-color: #ffd166;
+}
+
+.fizzbuzz {
+ background-color: #f0466f;
 }
