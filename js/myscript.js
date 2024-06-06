@@ -3,7 +3,7 @@ for(let i = 1; i <= 100; i++) {
     console.log(i);
 
     let messaggio;
-    
+
         // multipli sia di 3 che di 5 stampi “FizzBuzz”
         if(i % 3 === 0 && i % 5 === 0) {
             messaggio = "FizzBuzz"
@@ -19,15 +19,14 @@ for(let i = 1; i <= 100; i++) {
 
     console.log(messaggio);
 
+
+// richiamo container html
+const container = document.querySelector(".container");
+
+// creare div da inserire nel container
+const box = `<div class="box">${messaggio}</div>`;
+
+// inserire box all'interno di container
+container.innerHTML += box;
+
 }
-
-
-//  
-
-
-
-// 
-
-
-
-// .

@@ -26,9 +26,10 @@ header h1 {
     flex-wrap: wrap;
 }
 
-/* DEBUG */
-/* .prova {
+.box {
     height: 100px;
     width: 100px;
     background-color: aqua;
-} */
+    align-content: center;
+    text-align: center;
+}
